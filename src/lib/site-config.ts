@@ -4,7 +4,7 @@ export const siteConfig = {
   tagline: "Grow roots. Grow large.",
   description:
     "AI consulting for small and medium businesses. We build content plans, produce short-form, mid-form, and podcast content, and cut costs with automation — so small businesses grow roots and medium businesses grow large.",
-  url: "https://www.thatonelocalgirl.com",
+  url: "https://thatonelocalgirl.com",
   location: {
     city: "Huntsville",
     region: "TX",
@@ -12,7 +12,7 @@ export const siteConfig = {
   },
   contact: {
     email: "hello@thatonelocalgirl.com",
-    phone: "+1 (936) 555-0110",
+    phone: "+1 (832) 599-1425",
     instagram: "https://www.instagram.com/thatonelocalgirl",
     tiktok: "https://www.tiktok.com/@thatonelocalgirl",
   },
