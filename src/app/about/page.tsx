@@ -43,19 +43,22 @@ export default function AboutPage() {
               About Us
             </p>
             <h1 className="font-display text-4xl font-bold leading-tight text-ink sm:text-5xl">
-              We started by showcasing local businesses. Now we help them
-              grow.
+              It started in a classroom. Now we help businesses grow.
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-ink-soft">
-              {siteConfig.name} began as {siteConfig.founder}&apos;s
-              short-form video project — walking into local restaurants,
-              shops, and services around {siteConfig.location.city} and
-              showing people why they were worth visiting. Along the way, the
-              same question kept coming up from the business owners
-              themselves: <em>&ldquo;How do we do what you just did, for
-              us?&rdquo;</em>
+              {siteConfig.name} started as a marketing class project —
+              {siteConfig.founder} was asked to build a real audience for a
+              real business. What began as an assignment turned into short
+              videos walking into local restaurants, shops, and services
+              around {siteConfig.location.city} and showing people why they
+              were worth visiting.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-ink-soft">
+              The follower count kept climbing — and so did a different kind
+              of question from the business owners themselves:{" "}
+              <em>
+                &ldquo;How do we do what you just did, for us?&rdquo;
+              </em>{" "}
               That question became this business. We now help small and
               medium businesses build the content plans, produce the video
               and podcast content, and put in place the automations that let
@@ -65,13 +68,23 @@ export default function AboutPage() {
           <div className="aspect-square w-full rounded-3xl border border-tan-dark bg-tan p-2">
             <div className="flex h-full w-full flex-col justify-end rounded-2xl bg-ink p-8 text-cream">
               <p className="font-display text-2xl font-semibold">
-                &ldquo;{siteConfig.tagline}&rdquo;
+                &ldquo;{siteConfig.motto}&rdquo;
               </p>
               <p className="mt-2 text-sm text-cream/70">
                 {siteConfig.founder}, Founder
               </p>
             </div>
           </div>
+        </Container>
+      </section>
+
+      <section className="bg-cream pb-20">
+        <Container>
+          <SectionHeading
+            eyebrow="Our philosophy"
+            title={siteConfig.motto}
+            description="Influence isn't reserved for a handful of online personalities. We believe every business — no matter how small, how established, or how camera-shy the owner — already has a story worth telling. You don't need to be a celebrity to build real reach. You need consistency, a plan, and someone willing to hit record."
+          />
         </Container>
       </section>
 
