@@ -24,7 +24,7 @@ export default function AutomationSavingsCalculatorPage() {
       <CtaBanner
         eyebrow="Like what you see?"
         title="Turn this estimate into a real automation plan"
-        description="We'll audit your actual workflows and tell you exactly what's worth automating first."
+        description="I'll audit your actual workflows and tell you exactly what's worth automating first."
       />
     </>
   );

@@ -31,7 +31,7 @@ export default function BlogIndexPage() {
             Practical guides on content &amp; automation
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink-soft">
-            No fluff — just what we&apos;ve learned helping small businesses,
+            No fluff — just what I&apos;ve learned helping small businesses,
             medium businesses, and franchises plan content and cut costs
             with automation.
           </p>
@@ -70,7 +70,7 @@ export default function BlogIndexPage() {
 
       <CtaBanner
         title="Want this done for you instead of DIY'd?"
-        description="We build the content plan and produce it — so you don't have to piece it together from blog posts."
+        description="I build the content plan and produce it — so you don't have to piece it together from blog posts."
       />
     </>
   );

@@ -60,7 +60,7 @@ export const blogPosts: BlogPost[] = [
     slug: "grow-roots-grow-large",
     title: "Grow Roots, Grow Large: A Framework for Small and Medium Business Growth",
     excerpt:
-      "Small businesses and medium businesses need fundamentally different things from a growth plan. Here's the framework we use with each.",
+      "Small businesses and medium businesses need fundamentally different things from a growth plan. Here's the framework I use with each.",
     date: "2026-04-18",
     readMinutes: 5,
     category: "Strategy",
@@ -68,7 +68,7 @@ export const blogPosts: BlogPost[] = [
       "A five-person local business and a fifty-person regional business are not on the same growth curve, even if they're in the same industry.",
       "Small businesses need roots: consistent content, a repeatable process, and enough automation to free up the owner's time without adding complexity they can't maintain.",
       "Medium businesses need scale: a content system that doesn't depend on one person, automation that connects across departments, and a strategy built for a team, not an individual.",
-      "The mistake we see most often is a small business trying to run a medium-business playbook (too many channels, too much tooling) or a medium business still running on small-business instincts (no documented process, no automation, everything routed through one inbox).",
+      "The mistake I see most often is a small business trying to run a medium-business playbook (too many channels, too much tooling) or a medium business still running on small-business instincts (no documented process, no automation, everything routed through one inbox).",
       "The right growth plan meets you where you are — roots first, then scale.",
     ],
   },

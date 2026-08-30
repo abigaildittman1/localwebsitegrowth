@@ -7,7 +7,7 @@ import { CtaBanner } from "@/components/CtaBanner";
 export const metadata: Metadata = {
   title: "Automation Readiness Quiz | Free 8-Question Assessment",
   description:
-    "Take our free 8-question automation readiness quiz to see how prepared your business is for automation, plus a personalized recommendation.",
+    "Take my free 8-question automation readiness quiz to see how prepared your business is for automation, plus a personalized recommendation.",
   alternates: { canonical: "/tools/automation-readiness-quiz" },
 };
 
@@ -27,7 +27,7 @@ export default function AutomationReadinessQuizPage() {
       <CtaBanner
         eyebrow="Ready for the next step?"
         title="Turn your score into a growth roadmap"
-        description="We'll take your results and build a plan sized to exactly where your business is today."
+        description="I'll take your results and build a plan sized to exactly where your business is today."
       />
     </>
   );

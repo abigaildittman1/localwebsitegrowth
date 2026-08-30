@@ -87,13 +87,13 @@ export default function ServicesPage() {
             Services
           </p>
           <h1 className="font-display max-w-3xl text-4xl font-bold leading-tight text-ink sm:text-5xl">
-            Three ways to work with us: lead it, learn it, or hand it off.
+            Three ways to work with me: lead it, learn it, or hand it off.
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink-soft">
-            Every business we work with falls into one of three camps: teams
+            Every business I work with falls into one of three camps: teams
             that want a clear plan and the confidence to run it, teams that
             want to learn to film and post themselves, and teams that want it
-            handled entirely. We built our services around all three.
+            handled entirely. I built my services around all three.
           </p>
         </Container>
       </section>
@@ -103,7 +103,7 @@ export default function ServicesPage() {
           <SectionHeading
             eyebrow="Option 1 — You lead"
             title="Strategy & Consulting"
-            description="We do the thinking, planning, and training. You (and your team) execute with a clear roadmap and ongoing check-ins."
+            description="I do the thinking, planning, and training. You (and your team) execute with a clear roadmap and ongoing check-ins."
           />
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {strategyServices.map((s) => (
@@ -116,9 +116,9 @@ export default function ServicesPage() {
       <section className="bg-tan/50 py-20">
         <Container>
           <SectionHeading
-            eyebrow="Option 2 — We execute"
+            eyebrow="Option 2 — I execute"
             title="Done-For-You"
-            description="We film, edit, produce, and build the automations directly. You approve the plan, we handle production end-to-end."
+            description="I film, edit, produce, and build the automations directly. You approve the plan, I handle production end-to-end."
           />
           <div className="mt-10 grid gap-6 md:grid-cols-2">
             {doneForYouServices.map((s) => (
@@ -148,7 +148,7 @@ export default function ServicesPage() {
           <SectionHeading
             eyebrow="Not sure which fits?"
             title="Most businesses start with a consultation and blend all three"
-            description="A lot of our clients start with Strategy & Consulting to build the plan, add a Teach-Me-How session to get moving, then move some or all of the execution to us as they grow. We'll recommend a starting point on the call — no pressure to buy more than you need."
+            description="A lot of my clients start with Strategy & Consulting to build the plan, add a Teach-Me-How session to get moving, then move some or all of the execution to me as they grow. I'll recommend a starting point on the call — no pressure to buy more than you need."
           />
         </Container>
       </section>

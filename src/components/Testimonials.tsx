@@ -27,7 +27,7 @@ export function Testimonials() {
         <SectionHeading
           eyebrow="Client Results"
           title="Real businesses, real growth"
-          description="A few of the small businesses, medium businesses, and franchises we've helped grow roots — and grow large. (Placeholder testimonials shown — swap in your own client quotes anytime.)"
+          description="A few of the small businesses, medium businesses, and franchises I've helped grow roots — and grow large. (Placeholder testimonials shown — swap in your own client quotes anytime.)"
         />
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

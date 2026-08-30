@@ -46,7 +46,7 @@ export default function ToolsPage() {
             Get a real number before you book a call.
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink-soft">
-            Three free tools built from the same benchmarks we use with
+            Three free tools built from the same benchmarks I use with
             clients. No signup required.
           </p>
         </Container>
@@ -90,7 +90,7 @@ export default function ToolsPage() {
       </section>
 
       <CtaBanner
-        title="Want us to interpret the results?"
+        title="Want me to interpret the results?"
         description="A free consultation is the fastest way to turn any of these numbers into an actual plan."
       />
     </>

@@ -6,7 +6,7 @@ import { CtaBanner } from "@/components/CtaBanner";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "About Us",
+  title: "About",
   description: `The story behind ${siteConfig.name} — from local business content creator to consulting for small businesses, medium businesses, and franchises.`,
   alternates: { canonical: "/about" },
 };
@@ -15,7 +15,7 @@ const values = [
   {
     title: "Honest over impressive",
     description:
-      "If automation or a new platform isn't worth it yet, we'll say so — even if it means a smaller invoice.",
+      "If automation or a new platform isn't worth it yet, I'll say so — even if it means a smaller invoice.",
   },
   {
     title: "Built for real capacity",
@@ -30,7 +30,7 @@ const values = [
   {
     title: "Local business, first-hand",
     description:
-      "We've spent years inside local businesses, not just advising them from the outside.",
+      "I've spent years inside local businesses, not just advising them from the outside.",
   },
 ];
 
@@ -41,18 +41,16 @@ export default function AboutPage() {
         <Container className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div>
             <p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-accent">
-              About Us
+              About
             </p>
             <h1 className="font-display text-4xl font-bold leading-tight text-ink sm:text-5xl">
-              It started in a classroom. Now we help businesses grow.
+              I help small businesses grow.
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-ink-soft">
-              {siteConfig.name} started as a marketing class project —
-              {siteConfig.founder} was asked to build a real audience for a
-              real business. What began as an assignment turned into short
-              videos walking into local restaurants, shops, and services
-              around {siteConfig.location.city} and showing people why they
-              were worth visiting.
+              {siteConfig.name} started with short videos about local
+              businesses around {siteConfig.location.city} — no grand plan,
+              just genuine excitement for the restaurants, shops, and
+              services I loved and wanted more people to know about.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-ink-soft">
               The follower count kept climbing — and so did a different kind
@@ -60,7 +58,7 @@ export default function AboutPage() {
               <em>
                 &ldquo;How do we do what you just did, for us?&rdquo;
               </em>{" "}
-              That question became this business. We now help small
+              That question became this business. I now help small
               businesses, medium businesses, and franchise locations build
               the content plans, produce the short-form and mid-form video
               content, and put in place the automations that let them grow —
@@ -93,9 +91,9 @@ export default function AboutPage() {
       <section className="bg-cream pb-20">
         <Container className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <SectionHeading
-            eyebrow="Our philosophy"
+            eyebrow="My philosophy"
             title={siteConfig.motto}
-            description="Influence isn't reserved for a handful of online personalities. We believe every business — no matter how small, how established, or how camera-shy the owner — already has a story worth telling. You don't need to be a celebrity to build real reach. You need consistency, a plan, and someone willing to hit record."
+            description="Influence isn't reserved for a handful of online personalities — everyone has the ability to influence the people around them. That's true for individuals, and it's true for businesses, no matter how small, how established, or how camera-shy the owner. You don't need to be a celebrity to build real reach. You need consistency, a plan, and someone willing to hit record."
           />
           <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl border border-tan-dark bg-tan p-2">
             <div className="relative h-full w-full overflow-hidden rounded-2xl">
@@ -114,9 +112,9 @@ export default function AboutPage() {
       <section className="bg-tan/50 py-20">
         <Container>
           <SectionHeading
-            eyebrow="Our approach"
+            eyebrow="My approach"
             title="Grow roots. Grow large."
-            description="Small businesses need consistency and a system they can maintain. Medium businesses need that same system to scale across a team. Franchises need it to stay consistent across locations. We meet you at whichever stage you're in."
+            description="Small businesses need consistency and a system they can maintain. Medium businesses need that same system to scale across a team. Franchises need it to stay consistent across locations. I meet you at whichever stage you're in."
           />
           <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             <div className="rounded-2xl border border-tan-dark bg-cream p-8">
@@ -164,7 +162,7 @@ export default function AboutPage() {
 
       <section className="bg-cream py-20">
         <Container>
-          <SectionHeading eyebrow="What we value" title="How we work" />
+          <SectionHeading eyebrow="What I value" title="How I work" />
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {values.map((v) => (
               <div
@@ -184,7 +182,7 @@ export default function AboutPage() {
       </section>
 
       <CtaBanner
-        title="Want to see if we're the right fit?"
+        title="Want to see if I'm the right fit?"
         description="A free 20-minute consultation is the easiest way to find out."
       />
     </>

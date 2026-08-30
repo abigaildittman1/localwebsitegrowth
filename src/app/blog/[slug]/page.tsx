@@ -92,7 +92,7 @@ export default async function BlogPostPage({ params }: Props) {
 
       <CtaBanner
         title="Want this handled for you?"
-        description="We build the plan and produce the content — book a free consultation to see where to start."
+        description="I build the plan and produce the content — book a free consultation to see where to start."
       />
 
       <script

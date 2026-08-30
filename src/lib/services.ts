@@ -15,7 +15,7 @@ export const strategyServices: Service[] = [
   {
     title: "Content Strategy & Planning",
     description:
-      "We map out what to post, when, and why — a content plan built around your actual capacity, not an influencer's schedule.",
+      "I map out what to post, when, and why — a content plan built around your actual capacity, not an influencer's schedule.",
     items: [
       "Content pillars & messaging",
       "Monthly/quarterly content calendars",
@@ -61,7 +61,7 @@ export const doneForYouServices: Service[] = [
   {
     title: "Short-Form Content",
     description:
-      "TikTok- and Reels-ready videos filmed and edited for you, built around the content plan we design together.",
+      "TikTok- and Reels-ready videos filmed and edited for you, built around the content plan I design together with you.",
     items: [
       "On-site or remote filming",
       "Editing, captions & sound design",
@@ -81,7 +81,7 @@ export const doneForYouServices: Service[] = [
   {
     title: "Automation Implementation",
     description:
-      "We build and install the automations we recommend — scheduling, review requests, follow-ups, reporting — done, not just advised.",
+      "I build and install the automations I recommend — scheduling, review requests, follow-ups, reporting — done, not just advised.",
     items: [
       "Automation build & setup",
       "Integration with existing tools",
@@ -97,7 +97,7 @@ export const learnItYourselfPackages: Package[] = [
     title: "Teach-Me-How Training",
     price: "Starting at $350",
     description:
-      "A hands-on workshop for you or your team — filming, editing, and posting, taught on your own equipment so it sticks after we leave.",
+      "A hands-on workshop for you or your team — filming, editing, and posting, taught on your own equipment so it sticks after I leave.",
     items: [
       "1:1 or small-team hands-on session",
       "Filming, editing & posting basics",

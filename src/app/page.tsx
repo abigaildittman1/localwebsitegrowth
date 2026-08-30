@@ -28,7 +28,7 @@ export default function Home() {
               Consulting for Local &amp; Growing Businesses
             </p>
             <h1 className="font-display text-4xl font-bold leading-[1.1] text-ink sm:text-5xl lg:text-6xl">
-              We help small businesses{" "}
+              I help small businesses{" "}
               <span className="text-accent">grow roots</span> — and medium
               businesses <span className="text-accent">grow large</span>.
             </h1>
@@ -116,9 +116,9 @@ export default function Home() {
       <section className="bg-tan/50 py-20">
         <Container>
           <SectionHeading
-            eyebrow="How we work"
+            eyebrow="How I work"
             title="Strategy you lead, or done-for-you execution"
-            description="Some businesses want a roadmap and the confidence to run it themselves. Others want it handled. We do both — pick what fits."
+            description="Some businesses want a roadmap and the confidence to run it themselves. Others want it handled. I do both — pick what fits."
           />
 
           <div className="mt-12 grid gap-6 lg:grid-cols-2">
@@ -130,7 +130,7 @@ export default function Home() {
                 Strategy &amp; Consulting
               </h3>
               <p className="mt-3 text-sm leading-relaxed text-ink-soft">
-                We build the content plan and automation roadmap, train your
+                I build the content plan and automation roadmap, train your
                 team, and hand you a system you can run.
               </p>
               <ul className="mt-6 space-y-2">
@@ -144,14 +144,14 @@ export default function Home() {
 
             <div className="rounded-2xl border border-ink bg-ink p-8 text-cream">
               <p className="text-xs font-semibold uppercase tracking-wide text-accent-soft">
-                We execute
+                I execute
               </p>
               <h3 className="mt-2 font-display text-2xl font-semibold">
                 Done-For-You
               </h3>
               <p className="mt-3 text-sm leading-relaxed text-cream/75">
-                We film, edit, produce, and build the automations directly —
-                you approve, we handle the rest.
+                I film, edit, produce, and build the automations directly —
+                you approve, I handle the rest.
               </p>
               <ul className="mt-6 space-y-2">
                 {doneForYouServices.map((s) => (
@@ -177,7 +177,7 @@ export default function Home() {
           <SectionHeading
             eyebrow="Free Tools"
             title="Get a real number before you book a call"
-            description="Three free calculators built from the same benchmarks we use with clients."
+            description="Three free calculators built from the same benchmarks I use with clients."
           />
           <div className="mt-12 grid gap-6 lg:grid-cols-3">
             <Link
@@ -241,7 +241,7 @@ export default function Home() {
         <Container>
           <SectionHeading
             eyebrow="Prior Work"
-            title="A few businesses we've grown"
+            title="A few businesses I've grown"
             description="From bakeries to home services to multi-location franchises — see the plan and the results."
           />
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -259,7 +259,7 @@ export default function Home() {
 
       <CtaBanner
         title="Not sure where to start? Let's talk it through."
-        description="A free 20-minute consultation — we'll look at your content, your workflows, and tell you honestly where the biggest opportunity is."
+        description="A free 20-minute consultation — I'll look at your content, your workflows, and tell you honestly where the biggest opportunity is."
         secondaryLabel="Browse services"
         secondaryHref="/services"
       />

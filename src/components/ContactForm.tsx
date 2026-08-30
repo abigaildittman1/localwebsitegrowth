@@ -48,10 +48,10 @@ export function ContactForm() {
     return (
       <div className="rounded-2xl border border-accent bg-accent-soft/40 p-8 text-center">
         <h3 className="font-display text-xl font-semibold text-ink">
-          Thanks — we&apos;ve got it!
+          Thanks — I&apos;ve got it!
         </h3>
         <p className="mt-2 text-sm text-ink-soft">
-          We typically reply within 1 business day. Talk soon.
+          I typically reply within 1 business day. Talk soon.
         </p>
       </div>
     );
@@ -148,7 +148,7 @@ export function ContactForm() {
 
       <div className="mt-5">
         <label htmlFor="message" className="text-sm font-medium text-ink">
-          Tell us a bit about your business
+          Tell me a bit about your business
         </label>
         <textarea
           id="message"

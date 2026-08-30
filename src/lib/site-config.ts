@@ -2,9 +2,9 @@ export const siteConfig = {
   name: "That One Local Girl",
   shortName: "TOLG",
   tagline: "Grow roots. Grow large.",
-  motto: "Everyone is an influencer.",
+  motto: "Everyone's an Influencer.",
   description:
-    "Consulting for small businesses, medium businesses, and franchise locations. We build content plans, produce short-form and mid-form video content, and cut costs with automation — so small businesses grow roots, medium businesses grow large, and franchises stay consistent everywhere.",
+    "Consulting for small businesses, medium businesses, and franchise locations. I build content plans, produce short-form and mid-form video content, and cut costs with automation — so small businesses grow roots, medium businesses grow large, and franchises stay consistent everywhere.",
   url: "https://thatonelocalgirl.com",
   location: {
     city: "Huntsville",

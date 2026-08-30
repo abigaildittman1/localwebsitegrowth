@@ -7,7 +7,7 @@ import { caseStudies } from "@/lib/case-studies";
 export const metadata: Metadata = {
   title: "Prior Work | Case Studies",
   description:
-    "See the content plans, video production, and automation builds we've delivered for small businesses, medium businesses, and franchises — with real results.",
+    "See the content plans, video production, and automation builds I've delivered for small businesses, medium businesses, and franchises — with real results.",
   alternates: { canonical: "/work" },
 };
 
@@ -20,11 +20,11 @@ export default function WorkPage() {
             Prior Work
           </p>
           <h1 className="font-display max-w-3xl text-4xl font-bold leading-tight text-ink sm:text-5xl">
-            Businesses we&apos;ve helped grow roots — and grow large.
+            Businesses I&apos;ve helped grow roots — and grow large.
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink-soft">
             A sample of the content plans, production work, and automation
-            builds we&apos;ve delivered. Placeholder results shown below —
+            builds I&apos;ve delivered. Placeholder results shown below —
             replace with your own client case studies as they&apos;re ready
             to share.
           </p>

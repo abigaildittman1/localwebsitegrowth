@@ -6,7 +6,7 @@ import { siteConfig } from "@/lib/site-config";
 export const metadata: Metadata = {
   title: "Contact | Book a Free Consultation",
   description:
-    "Book a free consultation with That One Local Girl. Tell us about your business and we'll follow up within one business day.",
+    "Book a free consultation with That One Local Girl. Tell me about your business and I'll follow up within one business day.",
   alternates: { canonical: "/contact" },
 };
 
@@ -22,8 +22,8 @@ export default function ContactPage() {
             Let&apos;s build your plan.
           </h1>
           <p className="mt-6 max-w-md text-lg leading-relaxed text-ink-soft">
-            Tell us a bit about your business and what you&apos;re looking
-            for. We&apos;ll follow up within one business day to schedule a
+            Tell me a bit about your business and what you&apos;re looking
+            for. I&apos;ll follow up within one business day to schedule a
             free 20-minute consultation.
           </p>
 
