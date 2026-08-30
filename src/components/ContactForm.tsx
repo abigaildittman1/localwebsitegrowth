@@ -6,6 +6,7 @@ const interests = [
   "Strategy & Consulting",
   "Done-For-You Content",
   "Automation Implementation",
+  "Franchise / Multi-Location",
   "Not sure yet",
 ];
 

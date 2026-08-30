@@ -7,7 +7,7 @@ import { caseStudies } from "@/lib/case-studies";
 export const metadata: Metadata = {
   title: "Prior Work | Case Studies",
   description:
-    "See the content plans, video production, and automation builds we've delivered for small and medium businesses — with real results.",
+    "See the content plans, video production, and automation builds we've delivered for small businesses, medium businesses, and franchises — with real results.",
   alternates: { canonical: "/work" },
 };
 

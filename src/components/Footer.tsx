@@ -10,8 +10,9 @@ export function Footer() {
           <p className="font-display text-xl font-bold">{siteConfig.name}</p>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-cream/70">
             {siteConfig.tagline} AI consulting, content, and automation for
-            small and medium businesses in {siteConfig.location.city},{" "}
-            {siteConfig.location.region} and beyond.
+            small businesses, medium businesses, and franchises in{" "}
+            {siteConfig.location.city}, {siteConfig.location.region} and
+            beyond.
           </p>
           <div className="mt-6 flex gap-4">
             <a
@@ -115,7 +116,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} {siteConfig.name}. All rights
             reserved.
           </p>
-          <p>Huntsville, TX &middot; Serving small &amp; medium businesses</p>
+          <p>Huntsville, TX &middot; Serving small businesses, medium businesses &amp; franchises</p>
         </Container>
       </div>
     </footer>

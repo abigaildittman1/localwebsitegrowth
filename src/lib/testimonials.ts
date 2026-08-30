@@ -34,10 +34,10 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote:
-      "The podcast strategy alone paid for itself — we turned one recording into a month of short-form clips. Our AI readiness score went from 'getting started' to 'growing roots' in a quarter.",
+      "We run three locations and used to have three totally different social accounts doing three different things. Now every location posts from the same playbook and actually looks like one brand.",
     name: "Derek Lin",
-    business: "CEO, Lin & Co. Accounting",
-    category: "Professional Services",
+    business: "Franchisee, Sunrise Donuts",
+    category: "Franchise / Multi-Location",
     rating: 5,
   },
   {

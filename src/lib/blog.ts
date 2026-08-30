@@ -41,18 +41,19 @@ export const blogPosts: BlogPost[] = [
     ],
   },
   {
-    slug: "short-form-vs-podcast",
-    title: "Short-Form Video vs. Podcast: Where Should Your Business Start?",
+    slug: "franchise-content-consistency",
+    title: "How Franchise Locations Can Stay On-Brand Without Losing Their Local Voice",
     excerpt:
-      "Both work. But they solve different problems, and starting with the wrong one wastes months. Here's how to choose.",
+      "Multi-location brands face a real tension: consistent enough to look like one company, local enough to still feel like a neighborhood business. Here's how to hold both.",
     date: "2026-05-30",
-    readMinutes: 7,
-    category: "Content Strategy",
+    readMinutes: 6,
+    category: "Franchise & Multi-Location",
     content: [
-      "Short-form video (TikTok, Reels, Shorts) is a discovery engine — it's built to put your business in front of people who've never heard of you.",
-      "Podcasts are a trust engine — they're built to deepen the relationship with people who already know you exist, and they repurpose beautifully into weeks of short-form clips.",
-      "If you need new customers and awareness first, start with short-form. If you already have an audience (email list, regulars, local reputation) and want to build authority and repeat business, a podcast — even a monthly one — punches above its weight.",
-      "Many of the businesses we work with eventually do both: short-form to grow reach, podcast to convert that reach into loyalty. But starting with both at once is usually how businesses burn out and quit after six weeks.",
+      "The biggest content mistake franchises make is picking one extreme: either every location posts whatever it wants (and the brand looks scattered), or corporate mandates identical content everywhere (and every location feels like a chain, not a neighbor).",
+      "The fix is a shared playbook, not a shared feed. Give every location the same content pillars, the same visual style, and the same posting rhythm — but let the actual subject matter (which employee, which regular customer, which local event) come from that location.",
+      "Assign one point person per location responsible for filming, even part-time. Content that depends on 'whoever has time that week' is the first thing to slip once things get busy.",
+      "Centralize what should be centralized — brand guidelines, caption templates, automation for review requests and scheduling — and localize what should be local: the actual footage.",
+      "Done well, this is one of the highest-leverage moves available to a franchise: one strategy investment that scales across every location, instead of paying for marketing from scratch at each one.",
     ],
   },
   {

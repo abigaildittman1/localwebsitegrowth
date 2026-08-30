@@ -7,7 +7,7 @@ import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: `The story behind ${siteConfig.name} — from local business content creator to AI consulting for small and medium businesses.`,
+  description: `The story behind ${siteConfig.name} — from local business content creator to AI consulting for small businesses, medium businesses, and franchises.`,
   alternates: { canonical: "/about" },
 };
 
@@ -60,10 +60,11 @@ export default function AboutPage() {
               <em>
                 &ldquo;How do we do what you just did, for us?&rdquo;
               </em>{" "}
-              That question became this business. We now help small and
-              medium businesses build the content plans, produce the video
-              and podcast content, and put in place the automations that let
-              them grow — without needing a marketing department to do it.
+              That question became this business. We now help small
+              businesses, medium businesses, and franchise locations build
+              the content plans, produce the short-form and mid-form video
+              content, and put in place the automations that let them grow —
+              without needing a marketing department to do it.
             </p>
           </div>
           <div className="relative aspect-square w-full overflow-hidden rounded-3xl border border-tan-dark bg-tan p-2">
@@ -115,9 +116,9 @@ export default function AboutPage() {
           <SectionHeading
             eyebrow="Our approach"
             title="Grow roots. Grow large."
-            description="Small businesses need consistency and a system they can maintain. Medium businesses need that same system to scale across a team. We meet you at whichever stage you're in."
+            description="Small businesses need consistency and a system they can maintain. Medium businesses need that same system to scale across a team. Franchises need it to stay consistent across locations. We meet you at whichever stage you're in."
           />
-          <div className="mt-12 grid gap-8 sm:grid-cols-2">
+          <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             <div className="rounded-2xl border border-tan-dark bg-cream p-8">
               <p className="text-xs font-semibold uppercase tracking-wide text-accent">
                 Small businesses
@@ -142,6 +143,19 @@ export default function AboutPage() {
                 A content and automation system that works across a team,
                 not just a founder — built to scale without losing what made
                 the business work in the first place.
+              </p>
+            </div>
+            <div className="rounded-2xl border border-tan-dark bg-cream p-8">
+              <p className="text-xs font-semibold uppercase tracking-wide text-accent">
+                Franchises
+              </p>
+              <h3 className="mt-2 font-display text-xl font-semibold text-ink">
+                Stay consistent
+              </h3>
+              <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+                One brand playbook, adapted for every location — so each
+                franchise still feels like a local business, not a copy-paste
+                feed.
               </p>
             </div>
           </div>

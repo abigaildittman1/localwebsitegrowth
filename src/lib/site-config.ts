@@ -4,7 +4,7 @@ export const siteConfig = {
   tagline: "Grow roots. Grow large.",
   motto: "Everyone is an influencer.",
   description:
-    "AI consulting for small and medium businesses. We build content plans, produce short-form, mid-form, and podcast content, and cut costs with automation — so small businesses grow roots and medium businesses grow large.",
+    "AI consulting for small businesses, medium businesses, and franchise locations. We build content plans, produce short-form and mid-form video content, and cut costs with automation — so small businesses grow roots, medium businesses grow large, and franchises stay consistent everywhere.",
   url: "https://thatonelocalgirl.com",
   location: {
     city: "Huntsville",

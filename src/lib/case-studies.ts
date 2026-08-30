@@ -49,16 +49,16 @@ export const caseStudies: CaseStudy[] = [
     ],
   },
   {
-    slug: "lin-and-co-accounting",
-    business: "Lin & Co. Accounting",
-    category: "Professional Services",
+    slug: "sunrise-donuts-franchise",
+    business: "Sunrise Donuts (3 locations)",
+    category: "Franchise / Multi-Location",
     summary:
-      "One monthly podcast recording, repurposed into a full month of short-form clips and a newsletter, built authority without adding hours.",
-    services: ["Podcast Production", "Content Repurposing", "Strategy"],
+      "A shared short-form content playbook let three franchise locations post consistent, on-brand videos every week — without a corporate marketing team.",
+    services: ["Multi-Location Content", "Short-Form Video", "Strategy & Consulting"],
     results: [
-      { label: "Clips per episode", value: "12" },
-      { label: "AI readiness score", value: "+2 tiers" },
-      { label: "Inbound consults", value: "+9/mo." },
+      { label: "Locations onboarded", value: "3" },
+      { label: "Videos per week", value: "9" },
+      { label: "Combined follower growth", value: "+6,800" },
     ],
   },
   {

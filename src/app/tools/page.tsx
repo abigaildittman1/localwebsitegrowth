@@ -6,7 +6,7 @@ import { CtaBanner } from "@/components/CtaBanner";
 export const metadata: Metadata = {
   title: "Free Tools | Calculators & Quizzes for Small Businesses",
   description:
-    "Free tools for small and medium businesses: an automation savings calculator, a social media growth calculator, and an AI readiness quiz.",
+    "Free tools for small businesses, medium businesses, and franchises: an automation savings calculator, a social media growth calculator, and an AI readiness quiz.",
   alternates: { canonical: "/tools" },
 };
 

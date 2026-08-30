@@ -12,7 +12,7 @@ import { strategyServices, doneForYouServices } from "@/lib/services";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "AI Consulting, Content & Automation for Small & Medium Businesses",
+  title: "AI Consulting, Content & Automation for Small Businesses & Franchises",
   description: siteConfig.description,
   alternates: { canonical: "/" },
 };
@@ -33,9 +33,10 @@ export default function Home() {
               businesses <span className="text-accent">grow large</span>.
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink-soft">
-              {siteConfig.name} builds content plans, produces short-form,
-              mid-form, and podcast content, and cuts costs with automation —
-              so you spend less time guessing and more time growing.
+              {siteConfig.name} builds content plans, produces short-form and
+              mid-form video content, and cuts costs with automation — so you
+              spend less time guessing and more time growing, whether
+              you&apos;re a single location or a growing franchise.
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Button href="/contact" variant="primary">
@@ -91,7 +92,7 @@ export default function Home() {
                     </li>
                     <li className="flex items-center gap-2">
                       <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-                      Fri &mdash; Podcast clip repurpose
+                      Fri &mdash; Weekly recap (Mid-form)
                     </li>
                     <li className="flex items-center gap-2">
                       <span className="h-1.5 w-1.5 rounded-full bg-accent" />
@@ -241,7 +242,7 @@ export default function Home() {
           <SectionHeading
             eyebrow="Prior Work"
             title="A few businesses we've grown"
-            description="From bakeries to home services to podcasts — see the plan and the results."
+            description="From bakeries to home services to multi-location franchises — see the plan and the results."
           />
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {caseStudies.slice(0, 3).map((study) => (

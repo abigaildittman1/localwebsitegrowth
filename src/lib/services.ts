@@ -19,7 +19,7 @@ export const strategyServices: Service[] = [
     items: [
       "Content pillars & messaging",
       "Monthly/quarterly content calendars",
-      "Platform strategy (TikTok, Instagram, YouTube, podcast)",
+      "Platform strategy (TikTok, Instagram, YouTube Shorts)",
       "Performance tracking & reporting",
     ],
   },
@@ -44,6 +44,17 @@ export const strategyServices: Service[] = [
       "Quarterly strategy check-ins",
     ],
   },
+  {
+    title: "Multi-Location & Franchise Systems",
+    description:
+      "A content and automation system built to stay on-brand across every location, while still feeling locally relevant in each one.",
+    items: [
+      "Brand-consistent content playbook",
+      "Per-location content adaptation",
+      "Shared automation across locations",
+      "Franchisee onboarding & training",
+    ],
+  },
 ];
 
 export const doneForYouServices: Service[] = [
@@ -65,16 +76,6 @@ export const doneForYouServices: Service[] = [
       "Scripting & storyboarding",
       "Filming & production",
       "Editing & thumbnails",
-    ],
-  },
-  {
-    title: "Podcast Production",
-    description:
-      "Full-service podcast setup and production, repurposed into weeks of short-form content from a single recording.",
-    items: [
-      "Recording setup & hosting guidance",
-      "Editing & show notes",
-      "Clip repurposing for social",
     ],
   },
   {
@@ -108,7 +109,7 @@ export const learnItYourselfPackages: Package[] = [
     title: "Basic Mic & Gear Package",
     price: "Starting at $150",
     description:
-      "A curated starter kit sized for short-form and podcast recording on a small-business budget — no guesswork on what to buy.",
+      "A curated starter kit sized for short-form and mid-form video recording on a small-business budget — no guesswork on what to buy.",
     items: [
       "Lavalier or shotgun mic",
       "Phone mount & basic lighting",

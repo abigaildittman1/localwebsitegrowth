@@ -7,7 +7,7 @@ import { blogPosts } from "@/lib/blog";
 export const metadata: Metadata = {
   title: "Blog | Content Strategy & Automation Guides",
   description:
-    "Practical guides on content planning, short-form video, podcasting, and business automation for small and medium businesses.",
+    "Practical guides on content planning, short-form video, and business automation for small businesses, medium businesses, and franchises.",
   alternates: { canonical: "/blog" },
 };
 
@@ -31,8 +31,9 @@ export default function BlogIndexPage() {
             Practical guides on content &amp; automation
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink-soft">
-            No fluff — just what we&apos;ve learned helping small and medium
-            businesses plan content and cut costs with automation.
+            No fluff — just what we&apos;ve learned helping small businesses,
+            medium businesses, and franchises plan content and cut costs
+            with automation.
           </p>
         </Container>
       </section>

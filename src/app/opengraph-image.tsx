@@ -52,7 +52,7 @@ export default function Image() {
             maxWidth: 850,
           }}
         >
-          AI consulting, content, and automation for small &amp; medium businesses.
+          AI consulting, content &amp; automation for small businesses &amp; franchises.
         </div>
       </div>
     ),

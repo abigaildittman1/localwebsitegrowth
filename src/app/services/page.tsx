@@ -11,7 +11,7 @@ import {
 export const metadata: Metadata = {
   title: "Services | Strategy, Content & Automation for Small Businesses",
   description:
-    "Strategy & consulting you can run yourself, or done-for-you content production and automation builds. Content plans, short-form and mid-form video, podcast production, and cost-cutting automation.",
+    "Strategy & consulting you can run yourself, or done-for-you content production and automation builds. Content plans, short-form and mid-form video, franchise/multi-location systems, and cost-cutting automation.",
   alternates: { canonical: "/services" },
 };
 
@@ -105,7 +105,7 @@ export default function ServicesPage() {
             title="Strategy & Consulting"
             description="We do the thinking, planning, and training. You (and your team) execute with a clear roadmap and ongoing check-ins."
           />
-          <div className="mt-10 grid gap-6 md:grid-cols-3">
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {strategyServices.map((s) => (
               <ServiceBlock key={s.title} {...s} />
             ))}
