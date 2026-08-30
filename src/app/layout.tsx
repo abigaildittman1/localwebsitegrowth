@@ -18,12 +18,12 @@ const displayFont = Bricolage_Grotesque({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} | AI Consulting, Content & Automation for Small Businesses & Franchises`,
+    default: `${siteConfig.name} | Content, Automation & Consulting for Small Businesses & Franchises`,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
   keywords: [
-    "AI consulting for small business",
+    "business consulting for small business",
     "content strategy for small business",
     "short form video agency",
     "franchise social media marketing",
@@ -37,13 +37,13 @@ export const metadata: Metadata = {
     type: "website",
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: `${siteConfig.name} | AI Consulting, Content & Automation for Small Businesses & Franchises`,
+    title: `${siteConfig.name} | Content, Automation & Consulting for Small Businesses & Franchises`,
     description: siteConfig.description,
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteConfig.name} | AI Consulting for Small Businesses & Franchises`,
+    title: `${siteConfig.name} | Consulting for Small Businesses & Franchises`,
     description: siteConfig.description,
   },
   alternates: {

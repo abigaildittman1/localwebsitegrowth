@@ -7,7 +7,7 @@ import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: `The story behind ${siteConfig.name} — from local business content creator to AI consulting for small businesses, medium businesses, and franchises.`,
+  description: `The story behind ${siteConfig.name} — from local business content creator to consulting for small businesses, medium businesses, and franchises.`,
   alternates: { canonical: "/about" },
 };
 

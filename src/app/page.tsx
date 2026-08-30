@@ -12,7 +12,7 @@ import { strategyServices, doneForYouServices } from "@/lib/services";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "AI Consulting, Content & Automation for Small Businesses & Franchises",
+  title: "Content, Automation & Consulting for Small Businesses & Franchises",
   description: siteConfig.description,
   alternates: { canonical: "/" },
 };
@@ -25,7 +25,7 @@ export default function Home() {
         <Container className="grid items-center gap-12 lg:grid-cols-2">
           <div>
             <p className="mb-4 inline-flex items-center rounded-full bg-accent-soft px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.15em] text-accent-dark">
-              AI Consulting for Local &amp; Growing Businesses
+              Consulting for Local &amp; Growing Businesses
             </p>
             <h1 className="font-display text-4xl font-bold leading-[1.1] text-ink sm:text-5xl lg:text-6xl">
               We help small businesses{" "}
@@ -216,15 +216,15 @@ export default function Home() {
             </Link>
 
             <Link
-              href="/tools/ai-readiness-quiz"
+              href="/tools/automation-readiness-quiz"
               className="group flex flex-col rounded-2xl border border-tan-dark bg-tan/40 p-6 transition-colors hover:bg-tan/70"
             >
               <h3 className="font-display text-lg font-semibold text-ink">
-                AI Readiness Quiz
+                Automation Readiness Quiz
               </h3>
               <p className="mt-2 text-sm text-ink-soft">
                 An 8-question quiz that scores how ready your business is for
-                AI and automation.
+                automation.
               </p>
               <span className="mt-4 text-sm font-semibold text-accent group-hover:underline">
                 Take the quiz &rarr;

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Button } from "@/components/Button";
 import { quizQuestions, tierForScore, maxQuizScore } from "@/lib/readiness-quiz";
 
-export function AiReadinessQuiz() {
+export function AutomationReadinessQuiz() {
   const [answers, setAnswers] = useState<(number | null)[]>(
     Array(quizQuestions.length).fill(null),
   );
@@ -110,8 +110,8 @@ export function AiReadinessQuiz() {
           </>
         ) : (
           <p className="mt-6 text-sm leading-relaxed text-cream/70">
-            Answer all {quizQuestions.length} questions to see your AI
-            readiness score and personalized recommendation.
+            Answer all {quizQuestions.length} questions to see your
+            automation readiness score and personalized recommendation.
           </p>
         )}
 

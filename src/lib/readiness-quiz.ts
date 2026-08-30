@@ -49,7 +49,7 @@ export const quizQuestions: QuizQuestion[] = [
     ],
   },
   {
-    question: "Has your team used AI tools (like ChatGPT or Claude) in day-to-day work?",
+    question: "Has your team adopted new software or automation tools in day-to-day work?",
     options: [
       { label: "No, not yet", points: 0 },
       { label: "A little, informally", points: 1 },
@@ -111,7 +111,7 @@ export const readinessTiers: ReadinessTier[] = [
       "This is a great point to formalize processes so growth doesn't depend on one person remembering everything.",
   },
   {
-    label: "AI-Native",
+    label: "Fully Automated",
     range: [20, 24],
     description:
       "You're already running lean, connected systems — ahead of most small and medium businesses.",

@@ -24,12 +24,12 @@ export const strategyServices: Service[] = [
     ],
   },
   {
-    title: "AI & Automation Consulting",
+    title: "Automation Consulting",
     description:
-      "An honest audit of where AI and automation will actually save you time and money — and where it's not worth it yet.",
+      "An honest audit of where automation will actually save you time and money — and where it's not worth it yet.",
     items: [
       "Workflow & tooling audit",
-      "AI readiness assessment",
+      "Automation readiness assessment",
       "Cost-saving automation roadmap",
       "Vendor & tool recommendations",
     ],

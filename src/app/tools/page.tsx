@@ -6,7 +6,7 @@ import { CtaBanner } from "@/components/CtaBanner";
 export const metadata: Metadata = {
   title: "Free Tools | Calculators & Quizzes for Small Businesses",
   description:
-    "Free tools for small businesses, medium businesses, and franchises: an automation savings calculator, a social media growth calculator, and an AI readiness quiz.",
+    "Free tools for small businesses, medium businesses, and franchises: an automation savings calculator, a social media growth calculator, and an automation readiness quiz.",
   alternates: { canonical: "/tools" },
 };
 
@@ -26,10 +26,10 @@ const tools = [
     featured: false,
   },
   {
-    href: "/tools/ai-readiness-quiz",
-    title: "AI Readiness Quiz",
+    href: "/tools/automation-readiness-quiz",
+    title: "Automation Readiness Quiz",
     description:
-      "An 8-question quiz that scores how ready your business is for AI and automation, with a personalized recommendation.",
+      "An 8-question quiz that scores how ready your business is for automation, with a personalized recommendation.",
     featured: false,
   },
 ];

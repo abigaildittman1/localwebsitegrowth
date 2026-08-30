@@ -9,7 +9,7 @@ export function Footer() {
         <div className="sm:col-span-2 lg:col-span-1">
           <p className="font-display text-xl font-bold">{siteConfig.name}</p>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-cream/70">
-            {siteConfig.tagline} AI consulting, content, and automation for
+            {siteConfig.tagline} Consulting, content, and automation for
             small businesses, medium businesses, and franchises in{" "}
             {siteConfig.location.city}, {siteConfig.location.region} and
             beyond.
@@ -75,10 +75,10 @@ export function Footer() {
             </li>
             <li>
               <Link
-                href="/tools/ai-readiness-quiz"
+                href="/tools/automation-readiness-quiz"
                 className="text-sm text-cream/80 hover:text-cream"
               >
-                AI Readiness Quiz
+                Automation Readiness Quiz
               </Link>
             </li>
           </ul>
