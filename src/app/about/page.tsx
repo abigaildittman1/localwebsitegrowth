@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Container } from "@/components/Container";
 import { SectionHeading } from "@/components/SectionHeading";
 import { CtaBanner } from "@/components/CtaBanner";
@@ -65,26 +66,47 @@ export default function AboutPage() {
               them grow — without needing a marketing department to do it.
             </p>
           </div>
-          <div className="aspect-square w-full rounded-3xl border border-tan-dark bg-tan p-2">
-            <div className="flex h-full w-full flex-col justify-end rounded-2xl bg-ink p-8 text-cream">
-              <p className="font-display text-2xl font-semibold">
-                &ldquo;{siteConfig.motto}&rdquo;
-              </p>
-              <p className="mt-2 text-sm text-cream/70">
-                {siteConfig.founder}, Founder
-              </p>
+          <div className="relative aspect-square w-full overflow-hidden rounded-3xl border border-tan-dark bg-tan p-2">
+            <div className="relative h-full w-full overflow-hidden rounded-2xl">
+              <Image
+                src="/images/abigail-interview.jpg"
+                alt={`${siteConfig.founder} filming an on-location interview for ${siteConfig.name}`}
+                fill
+                sizes="(min-width: 1024px) 40vw, 90vw"
+                className="object-cover"
+                priority
+              />
+              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/90 via-ink/40 to-transparent p-8 pt-20">
+                <p className="font-display text-2xl font-semibold text-cream">
+                  &ldquo;{siteConfig.motto}&rdquo;
+                </p>
+                <p className="mt-2 text-sm text-cream/70">
+                  {siteConfig.founder}, Founder
+                </p>
+              </div>
             </div>
           </div>
         </Container>
       </section>
 
       <section className="bg-cream pb-20">
-        <Container>
+        <Container className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <SectionHeading
             eyebrow="Our philosophy"
             title={siteConfig.motto}
             description="Influence isn't reserved for a handful of online personalities. We believe every business — no matter how small, how established, or how camera-shy the owner — already has a story worth telling. You don't need to be a celebrity to build real reach. You need consistency, a plan, and someone willing to hit record."
           />
+          <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl border border-tan-dark bg-tan p-2">
+            <div className="relative h-full w-full overflow-hidden rounded-2xl">
+              <Image
+                src="/images/coyote-network-crew.jpg"
+                alt={`${siteConfig.founder} with the Coyote Network student broadcast crew`}
+                fill
+                sizes="(min-width: 1024px) 40vw, 90vw"
+                className="object-cover"
+              />
+            </div>
+          </div>
         </Container>
       </section>
 
